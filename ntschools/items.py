@@ -7,6 +7,8 @@ import scrapy
 
 
 class NtschoolsItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    Name = scrapy.Field()
+    PhysicalAddress = scrapy.Field()
+    PostalAddress = scrapy.Field()
+    Email = scrapy.Field()
+    Phone = scrapy.Field()
